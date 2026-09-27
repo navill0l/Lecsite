@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <!--
+        Full Name: Ivan Michael M. Bautista
+        Section: CS-201
+        Activity: League of Legends Club
+        Date: September 26, 2026-->
+        <title>League of Legends Club</title>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0"/>
+        <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css" type="text/css"/>
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.ico">
+        <link rel="apple-touch-icon" size="180x180" href="images/favicon.ico">
+        <link rel="icon" sizes="192x192" href="images/favicon.ico">
+
+    
+    </head>
+    <body>
+        <div id = "container">
+            <header>
+                <a href = "index.html">
+                    <img src = "images/leagueClub.png" alt = "League of Legends Club logo" width="190" height="190">
+                </a>
+            </header>
+
+            <nav>
+                <ul>
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "about.html">About Us</a> </li>
+                    <li><a href = "events.html">Tournaments & Events</a> </li>
+                    <li><a href = "coaching.html">Coaching</a></li>
+                    <li><a href = "contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+                       
+            <!-- Use the main area to add the contents of the page -->
+            <main>
+                <div id="hero">
+                    <img src="images/events_hero.jpg" alt="League of Legends character banner">
+                </div>
+
+                <div class="mobile">
+                    <h3>League of Legends Club Regular Events</h3>
+                    <p>1v1 tournament: Fri 5p.m.</p>
+                    <p>ARAM tournament: Wed 7p.m. &amp;10pm</p>
+                    <p>5v5 Draft Pick: Sat Sun 3p.m. &amp; 8pm</p>
+                    <p>League Fan Content Market: Mon Fri 6p.m.-12p.m.</p>
+                    <p>Rank Grind Session: Sat 11p.m.</p>
+                    <p>Free Coaching Sessions: Mon Tue 5p.m.</p>
+                </div>
+
+                <div class="tablet-desktop">
+                    <table><!-- Start Table -->
+                        <caption>League of Legends Club Regular Events</caption>
+                        <tr><!-- Row 1 -->
+                            <th>Event</th>
+                            <th>Days</th>
+                            <th>Times</th>
+                            <th>Event Manager</th>
+                            <th>Room</th>
+                        </tr>
+                        <tr><!-- Row 2 -->
+                            <td>1v1 Tournament</td>
+                            <td>Fri</td>
+                            <td>5:00 p.m.</td>
+                            <td>Jung l. Diff</td>
+                            <td>Game Room One</td>
+                        </tr>
+                        <tr><!-- Row 3 -->
+                            <td>ARAM Tournament</td>
+                            <td>Wed</td>
+                            <td>7:00 p.m. &amp; 10:00 p.m.</td>
+                            <td>Ray O. Tigames</td>
+                            <td>Game Room One</td>
+                        </tr>
+                        <tr><!-- Row 4 -->
+                            <td>5v5 Draft Pick</td>
+                            <td>Sat, Sun</td>
+                            <td>3:00 p.m. &amp; 8:00 p.m.</td>
+                            <td>Sumone R. Rift</td>
+                            <td>Team Game Room</td>
+                        </tr>
+                        <tr><!-- Row 5 -->
+                            <td>League Fan Content Market</td>
+                            <td>Mon Fri</td>
+                            <td>6:00 p.m. - 12:00 p.m.</td>
+                            <td>Eld R. Dragon</td>
+                            <td>Lobby</td>
+                        </tr>
+                        <tr><!-- Row 6 -->
+                            <td>Rank Grind Sessions</td>
+                            <td>Sat</td>
+                            <td>11:00 p.m.</td>
+                            <td>Leg O. Legend</td>
+                            <td>Game Room Two</td>
+                        </tr>
+                        <tr><!-- Row 7 -->
+                            <td>Free Coaching Sessions</td>
+                            <td>Mon, Tue</td>
+                            <td>5:00 p.m.</td>
+                            <td>Jung l. Diff</td>
+                            <td>Game Room Two</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id = "music-sample">
+                    <h3>We play intense, electronic music to keep our summoner's spirits high during your games. Here below is a sample of music played while you're out there battling in the summoner's rift.<br> Music from: Bri Tolani, Unknown Brain - Why Do I (Instrumental) [NCS Release]</h3>
+                    <audio controls>
+                        <source src = "media/Bri Tolani, Unknown Brain - Why Do I (Instrumental) [NCS Release].mp3" type = "audio/mp3">
+                        <source src = "media/Bri Tolani, Unknown Brain - Why Do I (Instrumental) [NCS Release].ogg" type = "audio/ogg">
+                        <p>Your browser does not support the audio element.</p>
+                    </audio>
+                    <div>
+
+                <div id="form">
+                    <h2>Accomplish the form to join in on our club!</h2>
+                    <form class="form-grid"><!-- Start from -->
+                        <fieldset>
+                            <legend>Member Information</legend>
+                            <label for="fName">First Name:</label>
+                            <input type="text" id="fName" name="fName" required>
+
+                            <label for="lName">Last Name:</label>
+                            <input type="text" id="lName" name="lName" required>
+
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+
+                            <label for="phone">Phone:</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Additional Information</legend>
+                            <p>I would like to know more about:</p>
+
+                            <label for="gamSess"><input type="checkbox" name="interest" id="gamSess" value="Game Sessions">Game Sessions</label>
+
+                            <label for="pcRent"><input type="checkbox" name="interest" id="pcRent" value="PC Renting">PC Renting</label>
+
+                            <label for="coaching"><input type="checkbox" name="interest" id="coaching" value="Coaching">Coaching</label>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Referral Source</legend>
+                            <label for="reference">How did you hear about us?</label>
+                            <select name="reference" id="reference">
+                                <option value="ad">Advertisement</option>
+                                <option value="friend">Friend</option>
+                                <option value="google">Google</option>
+                                <option value="social">Social Media</option>
+                                <option value="other">Other</option>
+                            </select>
+
+                            <label for="questions">Any Questions?</label>
+                            <textarea id="questions" name="questions" row="5" cols="35"></textarea>
+                        </fieldset>
+
+                        <input type="submit" id="submit" value="Submit" class="btn">
+                    </form><!-- End Form -->
+                </div>
+            </main>
+
+            <footer>
+                <p>&copy; Copyright 2026. All rights reserved. Created by Ivan Bautista</p>
+                <p><a href="">leagueOfLegendsClub.net</a></p>
+            </footer>
+        </div>
+    </body>
+</html>
